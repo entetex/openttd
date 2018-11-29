@@ -1,6 +1,6 @@
 FROM buildpack-deps:xenial-curl
 
-ARG OPENTTD_VERSION="1.7.1"
+ARG OPENTTD_VERSION="1.8.0"
 ARG OPENGFX_VERSION="0.5.2"
 
 RUN apt-get update \
